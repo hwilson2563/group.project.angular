@@ -1,0 +1,5 @@
+<h1>What's the weather like?</h1>
+<input ng-model="$ctrl.city" placeholder="city">
+<input ng-model="$ctrl.state" placeholder="state" >
+<button ng-click="$ctrl.locationSearch($ctrl.city, $ctrl.state)">Search</button>
+<p>{{ $ctrl.currentTemp }}</p>
